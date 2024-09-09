@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+  background-color: #161515; /* Cor de fundo da página */
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  height: 100vh; /* Preenche a altura total da viewport */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #c8b628;
+  text-align: center;
+  font-family: "GOT";
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "GOT";
+  src: url(../fontes/GOT.ttf);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1.5rem; /* Borda arredondada */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  color: #45474b; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+section button {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #c8b628; /* Cor de fundo do botão */
+  color: #000000; /* Cor do texto do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer;
+}
+
+.personagem {
+  border-radius: 5px;
+  margin: 5px;
+  margin-right: 8px;
+  float: left;
+}
+
+.resultados-pesquisa {
+  width: 60rem;
+  height: 46vh;
+  overflow-y: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+}
+
+.item-resultado {
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado h2 {
+  font-size: 1.5rem; /* Tamanho da fonte */
+  color: #222831; /* Cor do texto */
+  margin-top: 5px;
+}
+
+.item-resultado a {
+  text-decoration: none;
+  color: #b2a01e;
+}
+
+.item-resultado a:hover {
+  text-decoration: underline;
+}
+
+.descricao-meta {
+  margin: 0.5rem 0;
+  color: #161515;
+}
+
+.direitos {
+  color: #c8b628; /* Cor do texto */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+  background-color: #000000; /* Cor de fundo do rodapé */
+  color: #c8b628; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 0; /* Espaçamento interno */
+  width: 100%; /* Largura total da página */
+  position: absolute; /* Posiciona o rodapé */
+  bottom: 0; /* Alinha ao fundo da página */
+  font-size: 1rem; /* Tamanho da fonte */
+}
